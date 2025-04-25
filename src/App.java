@@ -20,8 +20,10 @@ public class App {
         ViewConsole vC=new ViewConsole();
 
         vC.printArray(personas);
+        System.out.println("Arreglado por Codigo (Descendente)");
         pC.sortByDireccionCodigo(personas);
         vC.printArray(personas);
+        System.out.println("Buscando persona con calle codigo 56");
         Persona pB=pC.findByCodigoDireccion(personas, 56);
         if(pB==null){
             System.out.println("No existe");

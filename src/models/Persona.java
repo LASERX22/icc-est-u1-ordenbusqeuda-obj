@@ -49,6 +49,6 @@ public class Persona {
     
     @Override
     public String toString(){
-        return name+edad+direccion;
+        return "Nombre: "+name+", Edad: "+edad+", Direccion: "+direccion;
     }
 }

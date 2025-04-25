@@ -27,5 +27,8 @@ public class Direccion {
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
-    
+    @Override
+    public String toString() {
+        return calle + " #" + numeroCalle + ", Código: " + codigo;
+    }
 }
